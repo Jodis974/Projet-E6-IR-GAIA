@@ -1,0 +1,27 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"projetgaia"},
+{"type":"table","name":"donnees","database":"projetgaia","data":
+[
+{"IdDonnees":"1","Timestamp":"2024-03-13 13:48:57","DCE":"1.5","TCEAM":"24","TCEAMB":"30","TCEAV":"26","ENS":"100","EEC":"2","FKIdPosition":"1"},
+{"IdDonnees":"2","Timestamp":"2024-03-13 13:49:10","DCE":"1.4","TCEAM":"20","TCEAMB":"22","TCEAV":"24","ENS":"80","EEC":"1.5","FKIdPosition":"2"},
+{"IdDonnees":"3","Timestamp":"2024-03-13 13:49:45","DCE":"2","TCEAM":"10","TCEAMB":"29","TCEAV":"24","ENS":"120","EEC":"3","FKIdPosition":"1"},
+{"IdDonnees":"5","Timestamp":"2024-03-13 13:50:04","DCE":"2.5","TCEAM":"15","TCEAMB":"26","TCEAV":"25","ENS":"40","EEC":"1","FKIdPosition":"2"},
+{"IdDonnees":"6","Timestamp":"2024-03-13 13:50:31","DCE":"3.5","TCEAM":"9","TCEAMB":"20","TCEAV":"26","ENS":"3.1","EEC":"3","FKIdPosition":"5"}
+]
+}
+,{"type":"table","name":"position","database":"projetgaia","data":
+[
+{"IdPosition":"1","Latitude":"-20.8821","Longitude":"55.4507","Altitude":"50","FKIdUtilisateur":"1"},
+{"IdPosition":"2","Latitude":"-21.3328","Longitude":"55.4718","Altitude":"150","FKIdUtilisateur":"2"},
+{"IdPosition":"5","Latitude":"21.287","Longitude":"55.409","Altitude":"50","FKIdUtilisateur":"3"}
+]
+}
+,{"type":"table","name":"utilisateur","database":"projetgaia","data":
+[
+{"IdUtilisateur":"1","Nom":"BOYER","Prenom":"Jeremy","Age":"48","Adresse":"15 allee des lilas","NumClient":"015905"},
+{"IdUtilisateur":"2","Nom":"HOARAU","Prenom":"Jean","Age":"30","Adresse":"1 rue georges brassens","NumClient":"047945"},
+{"IdUtilisateur":"3","Nom":"FONTAINE","Prenom":"Thomas","Age":"45","Adresse":"8 rue des Jasmin ","NumClient":"02542541"}
+]
+}
+]

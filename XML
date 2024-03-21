@@ -1,0 +1,8 @@
+Variable :
+
+nom_prenom_client                   temperature_actuelle
+
+batteryValue               networkValue               chargerValue
+batteryLabel               networkLabel               chargerLabel
+
+BOYER 015905
