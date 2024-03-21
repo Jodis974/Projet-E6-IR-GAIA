@@ -5,4 +5,26 @@ nom_prenom_client                   temperature_actuelle
 batteryValue               networkValue               chargerValue
 batteryLabel               networkLabel               chargerLabel
 
+
+
+
+
+
+
+DCE = Debit Circuit Eau
+TCEAM = Temperature Circuit Eau En Amont
+TCEAMB = Temperature Circuit Eau Ambiant
+TCEAV = Temperature Circuit Eau En Avale
+ENS = En Soleillement
+EEC = Efficacité Eau Chaude
+
+
+
+Variable Bouton Data = login_data
+
+
+
+
+
+
 BOYER 015905

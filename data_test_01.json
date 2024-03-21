@@ -1,0 +1,31 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"data_test_01"},
+{"type":"table","name":"donnees","database":"data_test_01","data":
+[
+{"IdDonnees":"1","Timestamp":"2024-03-13 13:48:57","DCE":"1.50","TCEAM":"24","TCEAMB":"30","TCEAV":"26","ENS":"100.00","EEC":"2.00","FKIdPosition":"1"},
+{"IdDonnees":"2","Timestamp":"2024-03-14 14:50:10","DCE":"1.40","TCEAM":"25","TCEAMB":"31","TCEAV":"27","ENS":"105.00","EEC":"2.10","FKIdPosition":"2"},
+{"IdDonnees":"3","Timestamp":"2024-03-15 15:55:20","DCE":"1.60","TCEAM":"26","TCEAMB":"32","TCEAV":"28","ENS":"110.00","EEC":"2.20","FKIdPosition":"3"},
+{"IdDonnees":"4","Timestamp":"2024-03-16 16:58:30","DCE":"1.70","TCEAM":"27","TCEAMB":"33","TCEAV":"29","ENS":"115.00","EEC":"2.30","FKIdPosition":"4"},
+{"IdDonnees":"5","Timestamp":"2024-03-17 17:59:40","DCE":"1.80","TCEAM":"28","TCEAMB":"34","TCEAV":"30","ENS":"120.00","EEC":"2.40","FKIdPosition":"5"}
+]
+}
+,{"type":"table","name":"position","database":"data_test_01","data":
+[
+{"IdPosition":"1","Latitude":"-20.882100","Longitude":"55.450700","Altitude":"50.00","FKIdUtilisateur":"1"},
+{"IdPosition":"2","Latitude":"-21.332800","Longitude":"55.471800","Altitude":"150.00","FKIdUtilisateur":"2"},
+{"IdPosition":"3","Latitude":"21.287000","Longitude":"55.409000","Altitude":"50.00","FKIdUtilisateur":"3"},
+{"IdPosition":"4","Latitude":"-22.882200","Longitude":"55.450800","Altitude":"60.00","FKIdUtilisateur":"4"},
+{"IdPosition":"5","Latitude":"-23.332900","Longitude":"55.472000","Altitude":"160.00","FKIdUtilisateur":"5"}
+]
+}
+,{"type":"table","name":"utilisateur","database":"data_test_01","data":
+[
+{"IdUtilisateur":"1","Nom":"DUPONT","Prenom":"Marie","Age":"34","Adresse":"10 rue de la République","NumClient":"001"},
+{"IdUtilisateur":"2","Nom":"MARTIN","Prenom":"Luc","Age":"29","Adresse":"22 avenue des Champs","NumClient":"002"},
+{"IdUtilisateur":"3","Nom":"BERNARD","Prenom":"Francoise","Age":"45","Adresse":"3 boulevard de la Liberté","NumClient":"003"},
+{"IdUtilisateur":"4","Nom":"DUBOIS","Prenom":"Julien","Age":"37","Adresse":"15 rue du Port","NumClient":"004"},
+{"IdUtilisateur":"5","Nom":"LEROY","Prenom":"Sophie","Age":"26","Adresse":"18 avenue de l’Opéra","NumClient":"005"}
+]
+}
+]
